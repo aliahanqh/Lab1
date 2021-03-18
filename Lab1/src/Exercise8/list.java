@@ -5,15 +5,15 @@ import Exercise7.WeightOnMars;
 
 public class list {
 	public list(){
-		WeightOnMars wt1 = new WeightOnMars(60);
-		WeightOnMars wt2 = new WeightOnMars(70);
-		WeightOnMars wt3 = new WeightOnMars(100);
+		WeightOnMars wom1 = new WeightOnMars(60);
+		WeightOnMars wom2 = new WeightOnMars(65);
+		WeightOnMars wom3 = new WeightOnMars(70);
 
 		ArrayList<WeightOnMars> weightlist = new ArrayList<WeightOnMars>();
 
-		weightlist.add(wt1);
-		weightlist.add(wt2);
-		weightlist.add(wt3);
+		weightlist.add(wom1);
+		weightlist.add(wom2);
+		weightlist.add(wom3);
 
 		Iterator<WeightOnMars> weightIt = weightlist.iterator();
 		while (weightIt.hasNext()) {
